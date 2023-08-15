@@ -1,0 +1,44 @@
+.img-center-cover{
+    object-fit: cover;
+    object-position: center;
+}
+.header{
+    padding: 8px;
+}
+.header-title{
+    letter-spacing: 1.5px;
+
+}
+.sns-icon{
+    font-size:28px;
+    padding:0 8px;
+
+}
+.text-twitter{
+    color: #00acee;
+}
+.text-instagram{
+    color: #e1306c;
+}
+.text-facebook{
+
+    color: #3B5998;
+    /* color: green; */
+}
+
+.font-14{
+    font-size: 14;
+}
+.mb-100{
+    margin-bottom: 100px;
+}
+a{/*ドットを最初に付けていないので、新たに定義しているわけではなく、元からあるやつをちょっと変えてる*/
+    color:inherit;/*文字の色を親要素から継承することで、青色にならない*/
+    text-decoration: none;/*下線を消す*/
+}
+.left-top{
+    position: absolute;
+    left :40px;
+    top : 24px;
+    color: #3a819b;
+}
